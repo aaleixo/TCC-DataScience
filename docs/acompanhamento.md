@@ -30,3 +30,8 @@ Atualizado em 23/11/2026. O status das tarefas fica no Linear (projeto P-CON-6, 
 - Token da API Economiza Alagoas (controle em 28/11, 01/12 e 05/12; plano B: site público).
 - Rotulação do conjunto v0 (coluna "decidível só pelo texto" em todos os pares).
 - Teste v4 (7B em float16 na L4).
+
+## 23/11/2026 — Lista fechada do LLM (proposta v2, rev 64)
+- 6 configurações: Qwen2.5 3B fp16 (T4), 7B 4 bits (T4), 7B fp16 (L4) × operador média ou mínimo das duas ordens.
+- Prompt e tokens "Sim"/"Não" fixos.
+- Escolha no desenvolvimento: menor limite superior do risco de falso positivo com cobertura ≥ C; empate dentro do IC → configuração que roda na T4.
