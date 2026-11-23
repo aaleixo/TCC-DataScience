@@ -10,8 +10,12 @@ Trabalho de conclusão do curso de Data Science (Unicamp), de Alessandra Aleixo 
 |---|---|
 | `coleta/` | Script usado para coletar, em pequena escala, descrições e códigos de barras no site público do Economiza Alagoas (23/11/2026) |
 | `scripts/` | `montar_pares.py` (monta os pares do conjunto de desenvolvimento, semente 20261123) e `teste_llm_local.py` (teste do LLM via llama.cpp no notebook) |
-| `notebooks/` | Testes técnicos do LLM no Google Colab: v1 (viabilidade), v2 (três formas de escore), v3 (auditoria sem rótulo) |
+| `notebooks/` | Testes técnicos do LLM no Google Colab: v1 (viabilidade), v2 (três formas de escore), v3 (auditoria sem rótulo), v4 (7B em float16 na L4) |
 | `dados/` | Coleta bruta (`coleta_economiza_al_2026-11-23.tsv`) e o conjunto de desenvolvimento v0 (`dados/dev_v0/`) |
+| `resultados/` | Resultados dos testes técnicos |
+| `docs/proposta/` | Proposta v1 (enviada ao orientador) e rascunho atual da v2 |
+| `docs/revisoes/` | Revisões adversariais da proposta e dos testes |
+| `docs/acompanhamento.md` | Linha do tempo, decisões fechadas e pendências |
 
 ## Reproduzir o conjunto de desenvolvimento v0
 
